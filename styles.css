@@ -7,7 +7,6 @@ body {
 
 
 .main {
-   
     background-color: #1F2937;
     color: white;
   
@@ -15,8 +14,9 @@ body {
 
 .header {
     display: flex;
-     display:flex;
+    display:flex;
     justify-content: space-around; 
+
    
 }
 
@@ -33,6 +33,7 @@ ul {
 
 /* Hero Logo Text */
 .header h1{ 
+    margin-right:390px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -91,8 +92,8 @@ span {
 
  img{ 
     margin-top:20px;
-    width:550px;
-    height:250px;
+    width:650px;
+    height:450px;
     padding:20px;
    
  }
@@ -117,6 +118,13 @@ span {
     justify-content: center;
     gap: 25px;
     padding:50px;
+   
+ }
+ .card img{
+    margin:0;
+    padding:0;
+    width:200px;
+    height:200px;
  }
 
 .wrapper p {
@@ -125,11 +133,13 @@ span {
     text-align: center;
 }
 
+
+
 .quote-container {
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding:100px;
+    padding:50px;
     font-size: 36px;
     font-weight: 300;
     background-color: #E5E7EB;
@@ -161,6 +171,9 @@ span {
     border-radius: 7px;
 }
 
+h1 {
+    font-size:px;
+}
 
 .action {
   line-height: 5px;
@@ -173,13 +186,13 @@ span {
     font-weight: 800;
 }
 
-.signUpAction {
+.orderAction{
     color:#F9FAF8;
     font-size:24px;
     background-color: #3882F6;
     border: 3px solid white;
     border-radius: 7px;
-    padding:8px 24px;
+    padding:8px 40px;
 }
 
 .footer {
@@ -189,3 +202,4 @@ span {
     text-align: center;
     font-size: 24px;
 }
+
