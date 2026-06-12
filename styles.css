@@ -154,7 +154,7 @@ span {
 
 
 .action {
-    color:white;
+    color:#F9FAF8;
     font-size: 24px;
     background-color: #3882F6;
     height:200px;
@@ -169,11 +169,23 @@ span {
   align-items: center;
 }
 
+.action-title {
+    font-weight: 800;
+}
+
 .signUpAction {
-    color:white;
+    color:#F9FAF8;
     font-size:24px;
     background-color: #3882F6;
     border: 3px solid white;
     border-radius: 7px;
     padding:8px 24px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding:60px;
+    text-align: center;
+    font-size: 24px;
 }
