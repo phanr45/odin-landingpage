@@ -1,0 +1,66 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif
+}
+
+
+.main {
+   
+    background-color: #1F2937;
+    color: white;
+  
+}
+
+.header {
+    display: flex;
+     display:flex;
+    justify-content: space-around; 
+}
+
+ul li {
+    padding: 25px;
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap:10px;
+}
+
+/* Hero Logo Text */
+h1{ 
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* hero main text */
+.main-hero h2 {
+    
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    
+}
+
+/* Hero Secondary Text */
+.main-hero p {
+    font-size: 24px;
+    color: #E5E7EB
+}
+
+.hero-container {
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    padding:70px;
+}
+
+span {
+    display:block;
+}
+
+ a{
+    color:#E5E7EB;
+    text-decoration: none;
+ }
